@@ -1,29 +1,43 @@
-aside{
-    
+aside {
     padding: 20px 15px;
     margin: 10px;
-    background: $card-background;
+    background-color: $card-background;
     border-radius: $radius;
     margin-bottom: 80px;
-    
-    figure{
-        img{
-            width: 130px;
-            cursor: pointer;
+    figure {
+      .no-text{
+        display: none;
+        @include ipad{
+          display: block;
+          width:40px;
         }
-        nav{
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            margin-top: 30px;
-            white-space: nowrap;
-            a{
-                display: flex;
-                gap: 10px;
-                align-items: center;
-
+      }
+      img{
+          max-width: 130px;
+          cursor: pointer;
+          @include ipad{
+            display: none;
+          }
+      }
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+        white-space: nowrap;
+        a{
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          i{
+            font-size: 20px;
+          }
+          span{
+            @include ipad{
+              display: none;
             }
+          }
         }
-
+      }
     }
-}
+  }
