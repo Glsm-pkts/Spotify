@@ -9,7 +9,7 @@ Bu proje Spotify uygulamasının bir klonu şeklinde kodlanmıştır.
 
 # Ekran görüntüsü
 
-![](./images/Document%202024-09-17%20at%201.22.20%20PM.jpg)
+![](./images/Ekran%20Resmi%202024-09-17%2013.33.50.png)
 
 # Gif
 
